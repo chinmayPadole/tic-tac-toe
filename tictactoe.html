@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script src="tictactoe.js"></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Tic Tac Toe</h1>
+      Human vs AI
+      <div id="board" class="board">
+        <div class="cell" onclick="makeMove(0, 'X')"></div>
+        <div class="cell" onclick="makeMove(1, 'X')"></div>
+        <div class="cell" onclick="makeMove(2, 'X')"></div>
+        <div class="cell" onclick="makeMove(3, 'X')"></div>
+        <div class="cell" onclick="makeMove(4, 'X')"></div>
+        <div class="cell" onclick="makeMove(5, 'X')"></div>
+        <div class="cell" onclick="makeMove(6, 'X')"></div>
+        <div class="cell" onclick="makeMove(7, 'X')"></div>
+        <div class="cell" onclick="makeMove(8, 'X')"></div>
+      </div>
+      <div id="result" class="result"></div>
+      <button onclick="newGame()">New Game</button>
+    </div>
+  </body>
+</html>
